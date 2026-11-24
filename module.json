@@ -9,6 +9,7 @@
       "name": "Miku"
     }
   ],
+  "url": "https://github.com/4M1KuVt/mikus-homebrew",
   "manifest": "https://raw.githubusercontent.com/4M1KuVt/mikus-homebrew/main/module.json",
   "compatibility": {
     "minimum": "14",
@@ -22,5 +23,41 @@
       }
     ]
   },
-  "packs": []
+  "packs": [
+    {
+      "label": "Feats",
+      "type": "Item",
+      "name": "feats",
+      "path": "./packs/feats",
+      "system": "pf2e",
+      "package": "mikus-homebrew"
+    },
+    {
+      "label": "Weapons",
+      "type": "Item",
+      "name": "weapons",
+      "path": "./packs/weapons",
+      "system": "pf2e",
+      "package": "mikus-homebrew"
+    },
+    {
+      "label": "Ammunition",
+      "type": "Item",
+      "name": "ammunition",
+      "path": "./packs/ammunition",
+      "system": "pf2e",
+      "package": "mikus-homebrew"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Miku's Homebrew",
+      "sorting": "a",
+      "packs": [
+        "feats",
+        "weapons",
+        "ammunition"
+      ]
+    }
+  ]
 }
