@@ -1,0 +1,26 @@
+
+{
+  "id": "mikus-homebrew",
+  "title": "Miku's Homebrew",
+  "description": "Conteúdo homebrew personalizado para Pathfinder 2e.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Miku"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/4M1KuVt/mikus-homebrew/main/module.json",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  },
+  "packs": []
+}
